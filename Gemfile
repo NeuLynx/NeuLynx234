@@ -15,6 +15,8 @@ gem 'high_voltage'
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'simple_form'
+gem 'foreman'
+gem 'dotenv-rails', :groups => [:development, :test]
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
